@@ -1,0 +1,39 @@
+# Github Actions自动化脚本
+
+# 设置名字
+name: deploy-website
+
+# 设置触发条件 在 push 到 main 分支后
+on:
+  push:
+    branches: [main]
+# 执行任务
+jobs:
+  build-and-deploy:
+    # 设置服务器环境 最新版Ubuntu
+    runs-on: ubuntu-latest
+    # 任务
+    steps:
+      # 拉取代码
+      - uses: actions/checkout@v2
+      # 安装node
+      - name: install nodejs
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: "18.x"
+      # 安装依赖
+      - name: install deps
+        run: npm install
+      # 构建
+      - name: build app
+        run: npm run docs:build
+      # 部署
+      - name: copy dist file with scp
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          password: ${{ secrets.REMOTE_PASSWORD }}
+          port: 22
+          source: "./dist/"
+          target: ${{ secrets.REMOTE_PATH }}
