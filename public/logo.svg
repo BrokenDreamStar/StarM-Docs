@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .g {
+        fill: url(#f);
+      }
+
+      .g, .h, .i {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .j {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .h {
+        fill: url(#e);
+      }
+
+      .i {
+        fill: url(#d);
+      }
+    </style>
+    <linearGradient id="d" data-name="未命名的渐变 116" x1="22" y1="64" x2="106" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#495aff"/>
+      <stop offset=".29" stop-color="#475cfe"/>
+      <stop offset=".47" stop-color="#4364fe"/>
+      <stop offset=".61" stop-color="#3b73fe"/>
+      <stop offset=".74" stop-color="#3087fe"/>
+      <stop offset=".85" stop-color="#22a1fe"/>
+      <stop offset=".96" stop-color="#11c1fe"/>
+      <stop offset="1" stop-color="#0acffe"/>
+    </linearGradient>
+    <linearGradient id="e" data-name="未命名的渐变 116" x1="55.66" y1="79.8" x2="102.44" y2="79.8" xlink:href="#d"/>
+    <linearGradient id="f" data-name="未命名的渐变 116" x1="72.85" y1="61.28" x2="102.81" y2="61.28" xlink:href="#d"/>
+  </defs>
+  <g id="c" data-name="图层 6">
+    <rect class="j" width="128" height="128"/>
+    <g>
+      <path class="i" d="m106,33.98c0-2.76-2.24-5-5-5h-24.63l-7.61-23.41c-.67-2.06-2.59-3.45-4.75-3.45s-4.09,1.39-4.75,3.45l-7.61,23.41h-24.63c-2.17,0-4.09,1.4-4.76,3.46-.67,2.06.06,4.32,1.82,5.59l19.93,14.47-7.61,23.41c-.14.43-.2.86-.22,1.28-.18,1.69.49,3.42,1.95,4.52l57.34,43.18c.9.68,1.96,1.01,3,1.01,1.52,0,3.02-.69,4-1.99,1.66-2.21,1.22-5.34-.99-7l-54.54-41.07,7.7-23.69c.67-2.06-.06-4.32-1.82-5.59l-10.41-7.56h12.87c2.17,0,4.09-1.39,4.75-3.45l3.98-12.24,3.98,12.24c.67,2.06,2.59,3.45,4.75,3.45h28.27c2.76,0,5-2.24,5-5Z"/>
+      <path class="h" d="m100.45,89.65l-36.77-27.69c-2.21-1.66-5.34-1.22-7,.99-1.66,2.21-1.22,5.34.99,7l36.77,27.69c.9.68,1.96,1.01,3,1.01,1.52,0,3.02-.69,4-1.99,1.66-2.21,1.22-5.34-.99-7Z"/>
+      <path class="g" d="m100.82,64.79l-19.95-15.03c-2.21-1.66-5.34-1.22-7,.99-1.66,2.21-1.22,5.34.99,7l19.95,15.03c.9.68,1.96,1.01,3,1.01,1.52,0,3.02-.69,4-1.99,1.66-2.21,1.22-5.34-.99-7Z"/>
+    </g>
+  </g>
+</svg>
