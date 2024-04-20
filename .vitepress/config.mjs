@@ -58,6 +58,7 @@ export default defineConfig({
         items: [
           { text: "1.20.4", link: "/mcclient/version/1.20.4" },
           { text: "1.20.1", link: "/mcclient/version/1.20.1" },
+          { text: "1.18.2", link: "/mcclient/version/1.18.2" },
         ],
       },
       {

@@ -10,7 +10,7 @@ hero:
     src: /logo.svg
   actions:
     - theme: brand
-      text: 查看StarM's MC客户端常见问题
+      text: 查看StarM Client常见问题
       link: /mcclient/download
     - theme: alt
       text: 前往StarM Team Website

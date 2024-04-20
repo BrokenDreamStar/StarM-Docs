@@ -1,9 +1,9 @@
 # 安装客户端
 
 ### 安装启动器
-首先需要安装如HMCL,PCL2,MultiMC之类的支持安装.mrpack文件的启动器 
+首先需要安装如HMCL,PCL2,MultiMC,Prism Launcher等支持安装.mrpack文件的启动器 
 
-###### [下载HMCL](https://hmcl.huangyuhui.net/download/)  [下载PCL2](https://afdian.net/a/LTCat/) [下载MultiMC](https://multimc.org/)
+###### [下载HMCL](https://hmcl.huangyuhui.net/download/)  [下载PCL2](https://afdian.net/a/LTCat/) [下载MultiMC](https://multimc.org/) [下载Prism Launcher](https://prismlauncher.org/)
 
 ### 安装客户端
 
