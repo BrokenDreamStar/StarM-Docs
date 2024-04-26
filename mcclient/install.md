@@ -1,13 +1,13 @@
 # 安装客户端
 
+### StarM Clent 1.13.2-Rift由于Rift的特殊性 无法打包为.mrpack文件 请前往[1.13.2-Rift](../mcclient/version/1.13.2-Rift.md)查看
+
 ### 安装启动器
 首先需要安装如HMCL,PCL2,MultiMC,Prism Launcher等支持安装.mrpack文件的启动器 
 
 ###### [下载HMCL](https://hmcl.huangyuhui.net/download/)  [下载PCL2](https://afdian.net/a/LTCat/) [下载MultiMC](https://multimc.org/) [下载Prism Launcher](https://prismlauncher.org/)
 
-### 安装客户端
-
-##### 以HMCL为例
+### 安装客户端 以HMCL为例
 把.mrpack文件拖入HMCL中
 ![](./img/3.png)
 
