@@ -47,6 +47,7 @@ export default defineConfig({
       {
         text: "开始使用StarM Client",
         items: [
+          { text: "关于StarM Client", link: "/mcclient/about" },
           { text: "下载客户端", link: "/mcclient/download" },
           { text: "安装客户端", link: "/mcclient/install" },
           { text: "安装可选模组", link: "/mcclient/install-optional-mod" },
@@ -61,7 +62,7 @@ export default defineConfig({
           { text: "1.18.2", link: "/mcclient/version/1.18.2" },
           { text: "1.16.5", link: "/mcclient/version/1.16.5" },
           { text: "1.15.2", link: "/mcclient/version/1.15.2" },
-          { text: "1.13.2-Rift", link: "/mcclient/version/1.13.2-Rift" },
+          { text: "1.13.2", link: "/mcclient/version/1.13.2" },
         ],
       },
       {
