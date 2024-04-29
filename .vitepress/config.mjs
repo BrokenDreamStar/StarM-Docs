@@ -59,10 +59,14 @@ export default defineConfig({
         items: [
           { text: "1.20.4", link: "/mcclient/version/1.20.4" },
           { text: "1.20.1", link: "/mcclient/version/1.20.1" },
+          { text: "1.19.4", link: "/mcclient/version/1.19.4" },
           { text: "1.18.2", link: "/mcclient/version/1.18.2" },
+          { text: "1.17.1", link: "/mcclient/version/1.17.1" },
           { text: "1.16.5", link: "/mcclient/version/1.16.5" },
           { text: "1.15.2", link: "/mcclient/version/1.15.2" },
+          { text: "1.14.4", link: "/mcclient/version/1.14.4" },
           { text: "1.13.2", link: "/mcclient/version/1.13.2" },
+          { text: "1.12.2-1.7.10", link: "/mcclient/version/1.12.2-1.7.10" },
         ],
       },
       {
