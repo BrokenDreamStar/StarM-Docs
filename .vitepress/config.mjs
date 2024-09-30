@@ -57,6 +57,7 @@ export default defineConfig({
       {
         text: "各版本默认配置及问题",
         items: [
+          { text: "1.21", link: "/mcclient/version/1.21" },
           { text: "1.20.4", link: "/mcclient/version/1.20.4" },
           { text: "1.20.1", link: "/mcclient/version/1.20.1" },
           { text: "1.19.4", link: "/mcclient/version/1.19.4" },
