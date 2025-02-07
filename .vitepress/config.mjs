@@ -70,6 +70,7 @@ export default defineConfig({
 			copyright: 'Copyright © 2021-2025 StarM Team',
 		},
 	},
+	ignoreDeadLinks: true,
 })
 
 function sidebarMcclient() {
