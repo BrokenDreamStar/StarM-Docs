@@ -30,7 +30,7 @@ ollama -v
 ollama提供了一个[模型库](https://ollama.com/search)
 ![](attachments/Pasted-image-20250204144315.png)
 找到你需要的模型 这里选择deepseek-r1
-![](attachments/Pasted image 20250204144635.png)
+![](attachments/Pasted-image-20250204144635.png)
 根据你的需求选择不同参数量的模型 理论上选择比自己显存小的即可 但是6G显存也是可以跑7b的 只是非常极限 在爆显存的边缘
 
 这里选择7b
