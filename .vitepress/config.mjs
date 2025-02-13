@@ -16,7 +16,7 @@ export default defineConfig({
 			},
 			{
 				text: 'Blog',
-				link: '/blog/ai/在Windows上部署ollama',
+				link: '/blog/ai/在Windows上部署Ollama',
 				activeMatch: '/blog/',
 			},
 		],
@@ -122,10 +122,10 @@ function sidebarBlog() {
 		{
 			text: '本地部署大模型',
 			items: [
-				{ text: '在Windows上部署', link: '/blog/ai/在Windows上部署' },
+				{ text: '在Windows上部署Ollama', link: '/blog/ai/在Windows上部署Ollama' },
 				{
-					text: '在WSL2上使用Docker部署ollama',
-					link: '/blog/ai/在WSL2上使用Docker部署ollama',
+					text: '在WSL2上使用Docker部署Ollama',
+					link: '/blog/ai/在WSL2上使用Docker部署Ollama',
 				},
 			],
 		},
