@@ -16,7 +16,7 @@ export default defineConfig({
 			},
 			{
 				text: 'Blog',
-				link: '/blog/ai/在Windows上部署',
+				link: '/blog/ai/在Windows上部署ollama',
 				activeMatch: '/blog/',
 			},
 		],
