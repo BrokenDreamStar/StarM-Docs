@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-	base: '/StarM-Docs/',
 	lang: 'zh-Hans',
 	title: 'StarM Team Docs',
 	description: '碎梦星尘Star的文档站',
