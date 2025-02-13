@@ -1,4 +1,4 @@
-# 在WSL2上使用Docker部署
+# 在WSL2上使用Docker部署Ollama
 
 本文只针对N卡 其它显卡请自行查找方法  
 网络问题也请自行解决  
