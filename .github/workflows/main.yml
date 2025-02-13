@@ -7,26 +7,9 @@ on:
   pull_request:
     branches: [main]
 
-  # 支持手动在工作流上触发
-  workflow_dispatch:
-
 # 设置时区
 env:
   TZ: Asia/Shanghai
-
-# 权限设置
-permissions:
-  # 允许读取仓库内容的权限。
-  contents: read
-  # 允许写入 GitHub Pages 的权限。
-  pages: write
-  # 允许写入 id-token 的权限。
-  id-token: write
-
-# 并发控制配置
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 # 定义执行任务
 jobs:
@@ -35,18 +18,10 @@ jobs:
     # 使用最新版ubuntu
     runs-on: ubuntu-latest
 
-    # node v21 运行
-    strategy:
-      matrix:
-        node-version: [21]
-
     steps:
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          # 保留 Git 信息
-          fetch-depth: 0
 
       # 设置使用 Node.js 版本
       - name: Use Node.js
