@@ -51,7 +51,7 @@ export default defineConfig({
 		],
 		sidebar: {
 			'/mcclient/': sidebarMcclient(),
-			'/blog/ai/': sidebarBlog(),
+			'/blog/': sidebarBlog(),
 		},
 		outlineTitle: '当前页面目录',
 		outline: [2, 5],
@@ -127,6 +127,12 @@ function sidebarBlog() {
 					text: '在WSL2上使用Docker部署Ollama',
 					link: '/blog/ai/在WSL2上使用Docker部署Ollama',
 				},
+			],
+		},
+		{
+			text: 'MC服务器相关',
+			items: [
+				{ text: '为群组服务器配置反向代理', link: '/blog/Minecraft/为群组服务器配置反向代理' },
 			],
 		},
 	]
