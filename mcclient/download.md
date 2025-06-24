@@ -2,7 +2,7 @@
 
 ### 选择 MC 版本
 
-###### [点击跳转到下载页](https://starm.team/#/downloads)
+###### [点击跳转到下载页](https://starm.team/mc/mcclient)
 ![](./img/1.png)
 
 在该页面选择你要下载的MC版本
